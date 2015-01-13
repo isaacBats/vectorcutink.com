@@ -1,15 +1,21 @@
 *{	margin: 0; }
 
+a:link{
+	color: #052347;
+}
+
 body{
 	
+	color: #052347;
 	font-family: Arial, Helvetica;
+	font-size: 16px;
 	margin: 0;
 	background: white;
+
 }
 
 header{
 	background: #B2BBB2;
-	color: #000066;
 	margin: 0 auto;
 	position: relative;
 }
@@ -22,8 +28,32 @@ h2{
 }
 
 footer{
-	width: 100%;
-	font-size: 30px;
+	
+	font-weight: bold;
+	font-size: 24px;
+	margin-top: -40px;
+	text-transform: uppercase;
+	width: auto;
+}
+
+#main{
+	background: #f9f9cd;
+	margin: 0 auto;
+	max-width: 85%;
+}
+
+#menu{
+	margin: 0 auto;
+	text-align: center;
+}
+
+#sliderPrincipal{
+	background: #B2BBB2;
+	border-style: solid;
+	border-width: 7px;
+	height: 300px;
+	margin: 50px auto;
+	width: 90%;
 }
 
 #vec{
@@ -33,6 +63,11 @@ footer{
 .footer-link{
 	text-decoration: none;
 }
+
+.footer-span{
+	color: rgba(178, 178, 178, 0.75);
+}
+
 .MainMenu{
 	padding: 0;
 	position: absolute;
@@ -66,14 +101,15 @@ footer{
 }
 
 .pie{
-	padding: 2px;
-	width: 20%;
 	display: inline-block;
+	padding: 2px;
+	text-align: center;
+	width: 20%;
+	
 }
 
-#menu{
-	margin: 0 auto;
-	text-align: center;
+.bordePie{
+	border-right: 1px solid #052347;
 }
 
 @media screen and (min-width:767px){
@@ -84,17 +120,4 @@ footer{
 	.MainMenu-item{display:inline-block}
 }
 
-#main{
-	background: #f9f9cd;
-	margin: 0 auto;
-	max-width: 85%;
-}
 
-#sliderPrincipal{
-	background: #B2BBB2;
-	border-style: solid;
-	border-width: 7px;
-	height: 300px;
-	margin: 50px auto;
-	width: 580px;
-}
